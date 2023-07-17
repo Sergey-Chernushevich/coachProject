@@ -1,0 +1,52 @@
+.accordion {
+  width: 100%;
+}
+
+.accordion-item.first .accordion-header {
+  border-top: 2px solid #e4eaf3;
+}
+
+.accordion-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 7px 50px 7px 0;
+  border-bottom: 2px solid #e4eaf3;
+  color: var(--simple-black, #121217);
+  font-family: Cormorant;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  background-image: url(../assets/icons/open-blue.svg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  min-height: 77px;
+}
+
+.accordion-header .number {
+  color: var(--simple-black, #121217);
+  font-family: Cormorant;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  margin-right: 7px;
+}
+
+.accordion-header.active {
+  background-image: url(../assets/icons/close2-blue.svg);
+}
+
+.accordion-content {
+  display: none;
+  padding: 20px 0 20px 20px;
+}
+
+.services .accordion-header {
+  background-image: url(../assets/icons/open.png);
+}
+
+.services .accordion-header.active {
+  background-image: url(../assets/icons/close2.png);
+}

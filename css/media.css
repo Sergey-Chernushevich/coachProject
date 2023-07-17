@@ -1,0 +1,870 @@
+@media (max-width: 1200px) {
+  .header-navigation .navigation-item a {
+    font-size: 15px;
+  }
+  .welcome-info {
+    padding: 35px 0 80px 0;
+  }
+  h1 {
+    font-size: 100px;
+    line-height: 70px;
+  }
+
+  .welcome-info-img {
+    padding-left: 200px;
+  }
+  .doYouKnow2 .article {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 590px;
+  }
+  .doYouKnow2 .article p {
+    margin-bottom: 15px;
+  }
+  .statisticsBlock .info {
+    max-width: 60%;
+  }
+
+  .myPrinciples-info {
+    transform: translateY(100px);
+    overflow-y: scroll;
+    background: #fff;
+  }
+
+  .myPrinciples-info::-webkit-scrollbar {
+    width: 0;
+  }
+  .myPrinciples-photoBlock {
+    width: 50%;
+    margin-bottom: -100px;
+  }
+  .myPrinciples-info .subtitle {
+    margin-bottom: 15px;
+  }
+  .priceItem.wide {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 20px;
+  }
+
+  .priceItem h3 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .priceItem.wide .priceItem-btn {
+    width: 184px;
+  }
+
+  .myPrinciples-info h4 {
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+  .myPrinciples-list-item {
+    margin-bottom: 15px;
+    line-height: 20px;
+  }
+
+  .aboutCoaching .middleBlock {
+    background-position-x: -50px;
+  }
+
+  .aboutCoaching .middleBlock .info {
+    width: 53%;
+  }
+  .aboutCoaching .middleBlock .info h2.sectionTitle {
+    margin: 0 0 20px 0;
+    font-size: 50px;
+    line-height: 47px;
+  }
+
+  .middleBlock .info p {
+    margin-bottom: 10px;
+  }
+  .footer .contactsBlock {
+    width: 100%;
+  }
+  .footer .linkWrapper {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .aboutMe .coachInfo {
+    width: 47%;
+  }
+}
+
+@media (max-width: 992px) {
+  section {
+    padding: 0 3%;
+  }
+  .welcome .header .header-navigation {
+    margin: 0 5px;
+  }
+
+  .header-navigation .navigation-item a {
+    font-size: 12px;
+  }
+
+  .header-advances .advance {
+    height: 35px;
+    width: 35px;
+  }
+
+  .welcome-info {
+    padding: 5px 0 20px 0;
+  }
+
+  .welcome-info .topSubtitle {
+    font-size: 24px;
+    margin-bottom: 268px;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  h1 span {
+    padding-left: 0;
+  }
+
+  .welcome-info-img {
+    display: none;
+  }
+
+  .welcome-info-img-inline {
+    display: block;
+    margin-left: 68px;
+  }
+  .doYouKnow2 {
+    padding-bottom: 0;
+    background-color: #fff;
+  }
+  .doYouKnow2 .coachImg {
+    position: static;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    transform: translateY(0);
+  }
+
+  .aboutCoaching .middleBlock {
+    position: relative;
+  }
+  .aboutCoaching .middleBlock h2.sectionTitle {
+    position: absolute;
+    top: 28%;
+    width: 45%;
+    right: 0%;
+    padding-right: 5%;
+  }
+
+  .doYouKnow2 .article p {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+
+  .doYouKnow2 .article {
+    max-width: 100%;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    min-height: auto;
+  }
+
+  .doYouKnow2 .article p {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .doYouKnow2 h4.resume {
+    padding: 72px 5% 38px 5%;
+    max-width: 100%;
+    margin: 0;
+  }
+  .doYouKnow2 .socialNets {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0 5% 0 5%;
+    max-width: 100%;
+  }
+  .doYouKnow2 .socialNets .socialNets-item {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .doYouKnow2 .socialNets .socialNets-item:last-child {
+    margin-bottom: 0;
+  }
+  .doYouKnow2 .socialNets .socialNets-item .telegram {
+    margin-left: 30px;
+  }
+
+  .aboutMe-sectionTitle {
+    position: static;
+    margin: 0 0 25px 38px;
+  }
+
+  .education {
+    padding-top: 60px;
+    background: var(--purple-white, #f3f4f9);
+  }
+  .services .sectionTitle {
+    font-size: 39px;
+    line-height: 39px;
+  }
+
+  .servicesList {
+    margin-right: 15px;
+  }
+
+  .statisticsBlock {
+    flex-wrap: wrap;
+  }
+
+  .statisticsBlock .info {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .statisticsBlock .statistic {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .tabBtn {
+    font-size: 16px;
+  }
+
+  .guarantees {
+    background: var(--purple-black);
+    padding: 53px 0 0 0;
+  }
+
+  .myPrinciples-photoBlock {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .myPrinciples-photoBlock img {
+    width: 100%;
+  }
+  .myPrinciples-info {
+    width: auto;
+    padding: 5%;
+    padding-bottom: calc(5% - 15px);
+    overflow-y: scroll;
+    margin-top: 0;
+    transform: translateY(0);
+  }
+  .myPrinciples .sectionTitle {
+    margin-left: 5%;
+  }
+
+  .booking {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 42px;
+  }
+
+  #booking {
+    padding-top: 45px;
+  }
+
+  .booking .booking-title {
+    margin-bottom: 40px;
+    max-width: 100%;
+    padding-right: 0;
+    text-align: center;
+    justify-content: center;
+  }
+  .booking .booking-title h2 {
+    margin-right: 0;
+    text-align: left;
+    max-width: 100%;
+  }
+
+  .booking .booking-title h3 {
+    text-align: left;
+  }
+
+  .checkBoxWrapper {
+    width: 100%;
+    text-align: left;
+    padding-left: 15px;
+  }
+
+  .aboutCoaching .middleBlock .info {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+  }
+  .aboutCoaching .middleBlock {
+    background-color: #121217;
+    background-image: none;
+    height: auto;
+    justify-content: center;
+  }
+
+  .aboutCoaching .middleBlock .photoWrapper .shadow {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    height: 92px;
+    background: linear-gradient(0, #181824 0%, rgba(24, 24, 36, 0) 100%);
+  }
+
+  .aboutCoaching .middleBlock .photoWrapper {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-color: #0f0e0e;
+    overflow: hidden;
+  }
+
+  .aboutCoaching .middleBlock .info {
+    background: #181824;
+    width: 100%;
+    max-width: 1200px;
+  }
+  .middleBlock .info p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 18px;
+  }
+
+  .aboutCoaching .middleBlock img {
+    width: 100%;
+    transform: translateX(0);
+  }
+
+  .paymentOptions .discription {
+    max-width: 100%;
+    padding-right: 0;
+  }
+
+  .paymentOptions .imgBlock {
+    width: 100%;
+    justify-content: center;
+  }
+  .paymentOptions .imgBlock .imgWpapper {
+    margin: 0 2px;
+    width: 160px;
+  }
+  .cancelationPolicy h2 {
+    width: 60%;
+    padding-right: 20px;
+  }
+
+  .cancelationPolicy h2 {
+    width: 40%;
+  }
+  .cancelationPolicy .description {
+    width: 50%;
+    z-index: 2;
+  }
+  .cancelationPolicy .description p {
+    margin-bottom: 20px;
+  }
+  .cancelationPolicy-back {
+    transform: scale(1.7);
+  }
+
+  .footer .contactsBlock {
+    text-align: center;
+  }
+  .footer .contactsBlock span {
+    width: 100%;
+    display: block;
+    margin-bottom: 24px;
+  }
+
+  .phoneBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 40px;
+    background: var(--purple, #4c5cf4);
+    width: 60%;
+    margin: 0 auto;
+  }
+  .phoneBtn img {
+    display: block;
+  }
+
+  .aboutMe {
+    padding: 0;
+  }
+
+  .aboutMe .imageBlock {
+    height: auto;
+    width: 100%;
+  }
+
+  .aboutMe .imageBlock img {
+    width: 100%;
+  }
+
+  .aboutMe .coachInfo {
+    position: static;
+    width: 100%;
+    padding: 5%;
+    overflow-y: visible;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  h2.sectionTitle {
+    font-size: 39px;
+    line-height: 39px;
+  }
+
+  .welcome {
+    padding: 0;
+  }
+
+  .welcome .header .header-navigation {
+    display: none;
+  }
+
+  .welcome .header {
+    padding: 0 20px;
+  }
+
+  .header-advances {
+    display: none;
+  }
+
+  .burgerButton {
+    display: block;
+  }
+
+  .welcome-info {
+    padding: 15px 20px 22px 20px;
+    width: 100%;
+  }
+
+  .welcome-info .topSubtitle {
+    margin-bottom: 21px;
+    width: 300px;
+    margin-bottom: 268px;
+  }
+
+  h1 {
+    font-size: 80px;
+    line-height: 55px;
+    margin-bottom: 40px;
+  }
+
+  .welcome-info .bottomSubtitle {
+    font-size: 17px;
+    max-width: 350px;
+  }
+
+  .welcome-info-button {
+    height: 54px;
+    /* width: 100%; */
+    max-width: 390px;
+    border-radius: 27px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .doYouKnow {
+    padding-top: 42px;
+    padding-bottom: 40px;
+  }
+
+  .doYouKnow .question {
+    font-size: 39px;
+    line-height: 39px;
+    margin-bottom: 0;
+  }
+
+  .doYouKnow .questions-pc {
+    margin-top: 40px;
+  }
+
+  .doYouKnow .resume {
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .aboutCoaching .middleBlock .info h2.sectionTitle {
+    top: 23%;
+    width: 45%;
+    right: 0%;
+    padding-right: 5%;
+    font-size: 39px;
+    line-height: 39px;
+  }
+
+  .services {
+    padding-top: 30px;
+  }
+
+  .tabsWrapper {
+    display: none;
+  }
+
+  .statisticsBlock .statistic {
+    margin: 0 0;
+    width: 100%;
+  }
+  .statisticsBlock .info {
+    margin-bottom: 0;
+  }
+  .accardionWrapper {
+    display: block;
+  }
+
+  .myPrinciples-photoBlock {
+    flex-direction: column;
+    display: flex;
+  }
+  .myPrinciples .sectionTitle {
+    order: 2;
+    padding: 24px 5% 0 5%;
+    margin: 0;
+  }
+
+  h3.letsMeet {
+    color: var(--simple-black, #121217);
+    font-size: 32px;
+  }
+
+  .companiesList {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 12px 0 0 0;
+  }
+
+  .companiesList .companyItem {
+    width: 100%;
+    margin-bottom: 42px;
+  }
+
+  .companiesList .companyItem .companyLogoWrapper {
+    height: auto;
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .companiesList .companyItem .companyLogoWrapper img {
+    width: 100%;
+  }
+
+  .booking h2 {
+    font-size: 39px;
+    line-height: 39px;
+    margin-bottom: 18px;
+  }
+
+  .booking .booking-title h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  .booking-form {
+    margin-top: 0;
+  }
+
+  .booking-form input[type="checkbox"] {
+    margin: 0 7px 0 0;
+  }
+
+  .booking-form-button {
+    margin-bottom: 23px;
+  }
+
+  .publications {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .publications .sectionTitle {
+    color: #171612;
+    margin-bottom: 15px;
+  }
+  .aboutCoaching {
+    padding: 36px 0 0 0;
+  }
+
+  .aboutCoaching .sectionTitle {
+    margin-bottom: 40px;
+  }
+
+  .aboutCoaching-item {
+    margin: 10px;
+    border-radius: 20px;
+    background: #fff;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+  }
+
+  .aboutCoaching .lastBlock {
+    padding: 0 5% 42px 5%;
+  }
+
+  .aboutCoaching .lastBlock .lastBlock-title {
+    margin-bottom: 50px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .faq {
+    padding-top: 42px;
+  }
+
+  .prices {
+    padding-top: 40px;
+  }
+
+  .prices .sectionTitle {
+    margin-bottom: 23px;
+  }
+
+  .priceItem {
+    width: 100%;
+    min-width: 240px;
+    aspect-ratio: 2/1;
+    padding: 15px;
+  }
+
+  .priceItem.wide {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: unset;
+  }
+
+  .priceItem.wide p {
+    text-align: right;
+    width: 100%;
+    padding-right: 10%;
+  }
+
+  .priceList.first .priceItem {
+    width: 100%;
+    aspect-ratio: 3.75/1;
+  }
+
+  .priceList.third .priceItem {
+    width: 100%;
+    min-width: 240px;
+  }
+
+  .prices {
+    padding-bottom: 54px;
+  }
+
+  .paymentOptions {
+    padding-bottom: 54px;
+  }
+  .paymentOptions h2 {
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 39px;
+  }
+  .cancelationPolicy {
+    background-position-x: 45%;
+    background-image: url(../assets/img/cancelationPolicy-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cancelationPolicy-back {
+    display: none;
+  }
+
+  .cancelationPolicy h2 {
+    width: 100%;
+    padding-right: 0;
+    font-size: 39px;
+    line-height: 39px;
+    margin-bottom: -5px;
+    margin-top: 10px;
+  }
+
+  .cancelationPolicy .description {
+    width: 100%;
+  }
+
+  .cancelationPolicy .description p span {
+    color: #4c5cf4;
+    font-weight: 600;
+  }
+  .reviews {
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+  .reviewsSlider .swiper-button-wpapper {
+    top: 0;
+  }
+  .contactsBlock {
+    margin-right: 0;
+  }
+  .socialLinkBlock p {
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .socialLinkBlock .socialNetsList {
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .cases-slide-title .border {
+    display: none;
+  }
+
+  .cases {
+    background: var(--purple-white, #f3f4f9);
+  }
+
+  .cases-swiper {
+    margin-top: 35px;
+  }
+  .cases-slide-buttonWrapper {
+    display: none;
+  }
+
+  .cases-slide h3 {
+    font-size: 25px;
+    line-height: 27px;
+  }
+  .cases-slide-main {
+    flex-direction: column;
+    margin-top: 18px;
+  }
+
+  .cases-slide-main-point {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .track-title-Wrapper {
+    flex: 1;
+    height: 63px;
+    border-bottom: none;
+    margin-left: 0;
+    padding-left: 7px;
+  }
+
+  .track-title-Wrapper.first {
+    border-bottom: none;
+  }
+
+  .cases-slide-main-point .mainText {
+    margin-top: 5px;
+    padding: 0 10px 0 28px;
+    margin-left: 21px;
+    margin-bottom: -15px;
+    border-left: 2px solid #4c5cf4;
+  }
+
+  .cases-slide-main-point .mainText.first {
+    border-left: 2px dashed #4c5cf4;
+  }
+  .footer .qrCodeBlock {
+    display: none;
+  }
+  .mobileFooter {
+    display: flex;
+  }
+
+  .footer .linkWrapper {
+    display: none;
+  }
+
+  .footer .contactsBlock {
+    display: none;
+  }
+  .footer .linkWrapper .linkBlock {
+    width: 100%;
+  }
+
+  .footer .linkWrapper .linkBlock ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer .linkWrapper .linkBlock ul li {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .aboutCoaching .middleBlock .info h2.sectionTitle {
+    top: 14%;
+    width: 64%;
+    right: 0%;
+  }
+}
+
+@media (max-width: 1299px) {
+  .fade-in.visible:nth-child(2) {
+    transition-delay: 0.1s;
+  }
+
+  .fade-in.visible:nth-child(3) {
+    transition-delay: 0s;
+  }
+  .fade-in.visible:nth-child(4) {
+    transition-delay: 0.1s;
+  }
+
+  .fade-in.visible:nth-child(5) {
+    transition-delay: 0s;
+  }
+
+  .fade-in.visible:nth-child(6) {
+    transition-delay: 0.1s;
+  }
+
+  .fade-in.visible:nth-child(7) {
+    transition-delay: 0s;
+  }
+  .fade-in.visible:nth-child(8) {
+    transition-delay: 0.1s;
+  }
+}
+@media (max-width: 866px) {
+  .fade-in.visible:nth-child(2) {
+    transition-delay: 0s;
+  }
+
+  .fade-in.visible:nth-child(3) {
+    transition-delay: 0s;
+  }
+  .fade-in.visible:nth-child(4) {
+    transition-delay: 0s;
+  }
+
+  .fade-in.visible:nth-child(5) {
+    transition-delay: 0s;
+  }
+
+  .fade-in.visible:nth-child(6) {
+    transition-delay: 0s;
+  }
+
+  .fade-in.visible:nth-child(7) {
+    transition-delay: 0s;
+  }
+  .fade-in.visible:nth-child(8) {
+    transition-delay: 0s;
+  }
+}
