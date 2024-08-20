@@ -1,4 +1,4 @@
 # coachProgect
 
 coachProgect
-https://Sergey-Chernushevich.github.io/coachProgect
+https://Sergey-Chernushevich.github.io/coachProject

@@ -741,7 +741,7 @@ h3 {
 }
 
 .aboutMe-sectionTitle {
-  margin-left: 765px;
+  margin-left: 720px;
   position: absolute;
   margin-top: 60px;
 }
@@ -860,20 +860,13 @@ h3.letsMeet {
   z-index: 20;
 }
 
-.myPrinciples-photoBlock {
-  width: 50%;
-  margin-bottom: -100px;
-}
-
 .myPrinciples-photoBlock img {
   width: 100%;
 }
 
 .myPrinciples-info {
-  width: 50%;
   padding: 10px 47px;
   z-index: 15;
-  transform: translateY(400px);
   color: var(--simple-black, #121217);
   font-family: Open Sans;
   font-size: 16px;
@@ -917,10 +910,6 @@ h3.letsMeet {
   padding-bottom: 75px;
   display: flex;
   justify-content: space-between;
-}
-
-#booking {
-  padding-top: 190px;
 }
 
 .booking .booking-title {
@@ -2086,6 +2075,7 @@ h2 {
   z-index: 100;
   right: 5%;
   top: 5%;
+  cursor: pointer;
 }
 
 .pageBtn {

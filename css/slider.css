@@ -8,7 +8,7 @@
 }
 
 .education-slider {
-  width: 50%;
+  width: 75%;
   height: 450px;
   overflow: hidden;
 }
@@ -19,6 +19,11 @@
   height: 450px;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.education-slider .swiper-slide img {
+  height: 100%;
 }
 
 .education-slider .swiper-slide .magnify {

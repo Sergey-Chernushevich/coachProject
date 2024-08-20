@@ -3,12 +3,12 @@ const educationSlider = new Swiper(".education-slider", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  thumbs: {
-    swiper: {
-      el: ".education-slider-mini",
-      slidesPerView: 7,
-    },
-  },
+  // thumbs: {
+  //   swiper: {
+  //     el: ".education-slider-mini",
+  //     slidesPerView: 7,
+  //   },
+  // },
   loop: true,
   autoplay: {
     delay: 2000,
@@ -19,32 +19,6 @@ const educationSlider = new Swiper(".education-slider", {
 educationSlider.on("click", function () {
   educationSlider.autoplay.stop();
 });
-
-const educationSliderText = new Swiper(".education-slider-text", {
-  effect: "fade",
-  fadeEffect: {
-    crossFade: true,
-  },
-  loop: true,
-  autoHeight: false,
-});
-
-const educationSliderMini = new Swiper(".education-slider-mini", {
-  slidesPerView: 3,
-  autoHeight: false,
-  grid: {
-    rows: 2,
-  },
-  spaceBetween: 20,
-  breakpoints: {
-    992: { slidesPerView: 3 },
-    767: { slidesPerView: 2 },
-    320: { slidesPerView: 3 },
-  },
-});
-
-educationSlider.controller.control = educationSliderText;
-educationSliderText.controller.control = educationSlider;
 
 //----------------- modal--------------
 let magnifyList = document.getElementsByClassName("magnify");

@@ -26,7 +26,6 @@
   }
 
   .myPrinciples-info {
-    transform: translateY(100px);
     overflow-y: scroll;
     background: #fff;
   }
@@ -223,6 +222,9 @@
     flex-wrap: wrap;
   }
 
+  .myPrinciples .sectionTitle {
+    margin-top: 0;
+  }
   .statisticsBlock .info {
     max-width: 100%;
     margin-bottom: 20px;
@@ -251,7 +253,6 @@
   }
   .myPrinciples-info {
     width: auto;
-    padding: 5%;
     padding-bottom: calc(5% - 15px);
     overflow-y: scroll;
     margin-top: 0;
@@ -530,8 +531,7 @@
     display: flex;
   }
   .myPrinciples .sectionTitle {
-    order: 2;
-    padding: 24px 5% 0 5%;
+    padding: 0 5% 0 5%;
     margin: 0;
   }
 

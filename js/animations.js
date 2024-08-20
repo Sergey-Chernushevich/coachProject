@@ -97,32 +97,6 @@ window.addEventListener("scroll", function () {
   }
 });
 
-const myPrinciples = document.querySelector(".myPrinciples");
-const myPrinciplesInfo = document.querySelector(".myPrinciples-info");
-
-let executedmyPrinciples = false;
-
-window.addEventListener("scroll", function () {
-  if (window.innerWidth > 1200) {
-    if (myPrinciples.getBoundingClientRect().top < 270) {
-      myPrinciplesInfo.style.transform = "translateY(150px)";
-      executedmyPrinciples = true;
-    }
-  }
-});
-
-const aboutMeImgBlock = document.querySelector(".aboutMe-imgBlock");
-let executedmaboutMeImgBlock = false;
-
-window.addEventListener("scroll", function () {
-  if (window.innerWidth > 1200) {
-    if (aboutMeImgBlock.getBoundingClientRect().top < 270) {
-      aboutMeImgBlock.style.transform = "translateY(70px)";
-      executedmaboutMeImgBlock = true;
-    }
-  }
-});
-
 const cancelationPolicy = document.querySelector(".cancelationPolicy");
 const cancelationPolicyBack = document.querySelector(".cancelationPolicy-back");
 let executedcancelationPolicy = false;
